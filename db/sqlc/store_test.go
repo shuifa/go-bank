@@ -117,8 +117,6 @@ func TestStore_TransferTxDeadLock(t *testing.T) {
 	account1 := createRandomAccount(t)
 	account2 := createRandomAccount(t)
 
-	fmt.Println(">> before balance", account1.Balance, account2.Balance)
-
 	errs := make(chan error)
 
 	n := 10
