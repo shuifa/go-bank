@@ -5,7 +5,7 @@ import (
 	"github.com/shuifa/go-bank/util"
 )
 
-var validateCurreny validator.Func = func(fieldLevel validator.FieldLevel) bool {
+var validateCurrency validator.Func = func(fieldLevel validator.FieldLevel) bool {
 
 	if currency, ok := fieldLevel.Field().Interface().(string); ok {
 		return util.IsSupportedCurrency(currency)

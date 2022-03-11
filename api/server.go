@@ -43,7 +43,7 @@ func (server *Server) setupRouter() {
 	route := gin.Default()
 
 	if validate, ok := binding.Validator.Engine().(*validator.Validate); ok {
-		err := validate.RegisterValidation("currency", validateCurreny)
+		err := validate.RegisterValidation("currency", validateCurrency)
 		if err != nil {
 			log.Fatal(err)
 		}

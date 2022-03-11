@@ -23,3 +23,15 @@
 - [x] 从文件、环境变量、配置中心读取配置的包 [viper](https://github.com/spf13/viper) 
 
 - [x] mockdb 的包 [mock](https://github.com/golang/mock)，编写测试用例覆盖所有情况
+
+- [x] 自定义验证器 gin 框架的bingding包
+
+- [x] 数据库迁移 migrate，处理db error
+
+- [x] 密码生成与验证 `golang.org/x/crypto/bcrypt`
+
+- [x] 测试包自定义匹配器 `testify`
+
+- [x] authorization 包 `"github.com/o1egl/paseto"`, `"github.com/dgrijalva/jwt-go"`, 本地验证和远程验证
+
+- [x] gin 实现自定义中间件 auth
